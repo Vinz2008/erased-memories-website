@@ -42,6 +42,7 @@ header h1 {
     font-family: "PT Sans", serif;
     font-weight: 700;
     font-style: normal;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 
 h2, h3 {
@@ -57,7 +58,7 @@ section {
     background-color: #1e1e1e; /* Fond légèrement plus clair que le body */
     padding: 20px;
     border-radius: 10px; /* Coins légèrement arrondis */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7); /* Ombre pour profondeur */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Ombre pour profondeur */
 }
 
 /* Sous-catégories */
@@ -91,12 +92,28 @@ section {
 footer {
     background-color: #1c1c1c;
     color: #d32f2f; /* Rouge pour le texte du footer */
-    padding: 10px 0;
-    position: relative;
+    padding: 10px 20px;
+    /*position: relative;*/
     bottom: 0;
     width: 100%;
     font-size: 0.9rem;
     border-top: 2px solid #d32f2f;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 1.1rem;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 15px; /* Espacement entre les icônes */
 }
 
 /* Images */
@@ -110,6 +127,11 @@ img:hover {
     filter: brightness(1); /* Rétablir la luminosité */
 }
 
+.logo {
+    margin-bottom: 0px;
+}
+
+/*PAS UTILISE*/
 /* Texte surligné (utiliser dans les descriptions importantes) */
 .highlight {
     color: #d32f2f; /* Rouge pour accentuer les mots clés */
@@ -126,4 +148,8 @@ a {
 a:hover {
     color: #f0f0f0;
     text-decoration: underline;
+}
+
+.social-icons a:hover {
+    color: #f0f0f0; /* Couleur au survol */
 }
