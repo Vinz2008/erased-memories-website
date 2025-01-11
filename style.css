@@ -26,7 +26,8 @@ header, section, footer {
 header {
     background-color: #1c1c1c; /* Fond encore plus sombre pour le header */
     border-bottom: 2px solid #d32f2f; /* Ligne rouge sang */
-    padding: 30px 0;
+    padding: 10px 0;
+    line-height: 0.5;
 }
 
 header img {
@@ -76,7 +77,7 @@ section {
 #presentation .sous-categorie h3 {
     color: #d32f2f; /* Rouge sombre */
     font-size: 1.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 #presentation .sous-categorie p {
