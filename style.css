@@ -43,6 +43,29 @@ section {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7); /* Ombre pour profondeur */
 }
 
+#accueil .logo {
+    width: 1000px; /* Taille définie à 150px de largeur */
+    height: 270px; /* Hauteur définie à 100px */
+    margin-bottom: 20px; /* Espace sous l'image */
+}
+
+/* Style pour tous les boutons */
+.btn {
+    background-color: #d32f2f;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #9c1f1f; /* Plus sombre au survol */
+    transform: scale(1.05);
+}
+
+
 /* Sous-catégories */
 #presentation .sous-categorie {
     margin: 30px 0;
@@ -69,6 +92,16 @@ section {
     line-height: 1.8;
     margin: 10px 0;
 }
+
+.small-logo {
+    position: absolute; /* Permet de le positionner librement */
+    top: 10px; /* Distance du haut de la page */
+    left: 10px; /* Distance du côté gauche */
+    width: 50px; /* Taille de l'image en largeur */
+    height: auto; /* Ajuste automatiquement la hauteur pour garder les proportions */
+    filter: brightness(0.9); /* Optionnel : un effet léger */
+}
+
 
 /* Footer */
 footer {
@@ -110,3 +143,5 @@ a:hover {
     color: #f0f0f0;
     text-decoration: underline;
 }
+
+
