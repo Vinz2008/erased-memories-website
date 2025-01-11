@@ -3,70 +3,110 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: white;
+    background-color: #121212; /* Fond sombre */
+    color: #f0f0f0; /* Texte clair pour contraste */
+    line-height: 1.6;
 }
 
-/* Enlever le conteneur centralisé */
+/* Style général pour sections */
 header, section, footer {
-    width: 100%; /* Prendre toute la largeur */
-    text-align: center; /* Centrer le contenu */
-    padding: 20px; /* Ajouter des marges internes */
+    width: 100%;
+    text-align: center;
+    padding: 20px;
     box-sizing: border-box;
 }
 
-/* Style pour le header */
+/* Header */
 header {
-    background-color: #f4f4f4;
-    border-bottom: 2px solid darkred;
+    background-color: #1c1c1c; /* Fond encore plus sombre pour le header */
+    border-bottom: 2px solid #d32f2f; /* Ligne rouge sang */
+    padding: 30px 0;
 }
 
 header img {
     width: 100px;
     margin-bottom: 10px;
+    filter: brightness(0.8); /* Assombrir légèrement le logo */
 }
 
 header h1 {
-    color: darkred;
+    color: #d32f2f; /* Rouge sombre pour un effet dramatique */
     font-size: 2.5rem;
 }
 
-/* Style pour les sections */
+/* Sections */
 section {
-    margin: 20px 0; /* Espacement entre les sections */
-}
-
-/* Image principale */
-.image-principale img {
-    width: 90%; /* Réduire la largeur pour s'adapter à l'écran */
-    max-width: 600px;
-    height: auto;
-}
-
-/* Présentation */
-#presentation .sous-categorie {
     margin: 20px 0;
+    background-color: #1e1e1e; /* Fond légèrement plus clair que le body */
+    padding: 20px;
+    border-radius: 10px; /* Coins légèrement arrondis */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7); /* Ombre pour profondeur */
+}
+
+/* Sous-catégories */
+#presentation .sous-categorie {
+    margin: 30px 0;
 }
 
 #presentation .sous-categorie img {
-    width: 80%; /* Adapter les images à la largeur */
+    width: 80%;
     max-width: 500px;
     height: auto;
+    margin-top: 10px;
+    filter: brightness(0.7); /* Donner un effet plus sombre aux images */
+    border: 2px solid #d32f2f; /* Ajouter un contour rouge */
 }
 
-/* À propos de nous */
-#about-us img {
-    width: 50%; /* Ajuster la taille de l'image */
-    max-width: 300px;
-    height: auto;
-    margin-top: 10px;
+#presentation .sous-categorie h3 {
+    color: #d32f2f; /* Rouge sombre */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#presentation .sous-categorie p {
+    font-size: 1rem;
+    color: #f0f0f0; /* Texte clair */
+    line-height: 1.8;
+    margin: 10px 0;
 }
 
 /* Footer */
 footer {
-    background-color: darkred;
-    color: white;
+    background-color: #1c1c1c;
+    color: #d32f2f; /* Rouge pour le texte du footer */
     padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 0.9rem;
+    border-top: 2px solid #d32f2f;
+}
+
+/* Images */
+img {
+    border-radius: 5px; /* Coins arrondis pour un effet subtil */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Animation au survol */
+}
+
+img:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+    filter: brightness(1); /* Rétablir la luminosité */
+}
+
+/* Texte surligné (utiliser dans les descriptions importantes) */
+.highlight {
+    color: #d32f2f; /* Rouge pour accentuer les mots clés */
+    font-weight: bold;
+}
+
+/* Liens */
+a {
+    color: #d32f2f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
 }
