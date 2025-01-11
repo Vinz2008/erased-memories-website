@@ -2,11 +2,18 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 380;
+
+    font-variation-settings: "wdth" 100;
     background-color: #121212; /* Fond sombre */
     color: #f0f0f0; /* Texte clair pour contraste */
     line-height: 1.6;
 }
+
 
 /* Style général pour sections */
 header, section, footer {
