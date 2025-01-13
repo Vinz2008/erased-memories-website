@@ -150,3 +150,109 @@ a:hover {
     color: #f0f0f0;
     text-decoration: underline;
 }
+
+.team-member {
+    display: flex;
+    align-items: center; /* Aligner les images et le texte verticalement */
+    justify-content: center; /* Centrer horizontalement les éléments */
+    margin-bottom: 20px; /* Espacement entre les membres */
+}
+
+.team-member img {
+    width: 150px; /* Taille de l'image */
+    height: auto;
+    border-radius: 10px; /* Coins arrondis pour les photos */
+    margin-right: 20px; /* Espace entre l'image et le texte */
+}
+
+.member-info {
+    max-width: 600px; /* Limite la largeur du texte */
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+.member-info h3 {
+    margin: 0;
+    font-size: 1.5em; /* Taille du titre */
+    color: #ffffff; /* Couleur blanche pour contraster */
+}
+
+.member-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #cccccc; /* Couleur gris clair pour le texte */
+}
+
+.company-img {
+    width: 300px; /* Adaptez la taille selon vos besoins */
+    height: auto; /* Pour conserver les proportions */
+}
+/* Centrer les images et le texte côte à côte dans les guides */
+.guide-section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre chaque ligne dans la section */
+}
+
+.guide-row {
+    display: flex;
+    justify-content: center; /* Centre horizontalement l'image et le texte */
+    align-items: center; /* Aligne verticalement l'image et le texte */
+    margin-bottom: 20px;
+    max-width: 600px; /* Limite la largeur totale pour garder une bonne mise en page */
+}
+
+.guide-row img {
+    border: 2px solid #d32f2f; /* Contour rouge des images */
+    border-radius: 5px; /* Coins arrondis */
+    margin-right: 15px; /* Espace entre l'image et le texte */
+    width: 60px; /* Taille fixe pour toutes les images */
+    height: auto; /* Garder les proportions */
+}
+
+.guide-text {
+    color: #f0f0f0; /* Couleur blanche pour le texte */
+    text-align: left; /* Aligne le texte à gauche de chaque ligne */
+}
+
+/* Centrage des titres */
+.guide-section h1, .guide-section h2{
+    color: #d32f2f; /* Titres en rouge */
+    text-align: center; /* Centre les titres */
+    margin-bottom: 20px; /* Ajoute de l'espace sous les titres */
+}
+
+.large-title {
+    font-size: 2.5rem; /* Ajustez selon vos préférences */
+    font-weight: bold; /* Optionnel */
+    color: #f0f0f0; /* Optionnel : harmonisation avec les autres titres */
+    margin-bottom: 20px; /* Optionnel : espace sous le titre */
+}
+
+/* Style pour la section "guide-but" */
+.guide-but ul {
+    text-align: left; /* Aligne le texte à gauche */
+    margin-left: 20px; /* Décalage à gauche pour les listes */
+    padding-left: 20px; /* Espace supplémentaire à gauche pour les puces */
+    list-style-type: disc; /* Style des puces (par défaut : des cercles) */
+}
+
+.guide-but li {
+    margin-bottom: 10px; /* Espacement entre chaque élément de la liste */
+    font-size: 1rem; /* Taille de la police */
+    line-height: 1.5; /* Hauteur de ligne pour une meilleure lisibilité */
+    color: #f0f0f0; /* Couleur du texte */
+}
+
+.guide-but h2 {
+    text-align: left; /* Aligne les titres à gauche */
+    margin-left: 20px; /* Décalage à gauche pour les aligner avec les listes */
+    color: #d32f2f; /* Rouge pour harmoniser avec d'autres titres */
+    font-size: 1.5rem; /* Taille de police (ajustez selon vos préférences) */
+    margin-bottom: 10px; /* Espacement sous chaque titre */
+}
+
+
+
+

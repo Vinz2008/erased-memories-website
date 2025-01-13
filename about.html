@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>À propos - Erased Memories</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        img { 
+        border: 2px solid #d32f2f; /* Contour rouge par défaut pour toutes les images */
+        }
+        .small-logo { 
+            border: none; /* Retirer le contour rouge pour les images avec cette classe */
+        }
+        img { border: 2px solid #d32f2f; } /* Contour rouge aux images */
+        h1, h2 { color: #d32f2f; } /* Titres en rouge */
+    </style>
 </head>
 <body>
     <header>
@@ -12,16 +22,72 @@
             <a href="index.html" class="btn">Accueil</a>
         </nav>
     </header>
-    <section id="about-us">
-        <img src="images/logo_studio.png" alt="Logo du Studio" class="small-logo">
-        <h2>À propos de nous</h2>
-        <p>Studio Pixel Rift est un studio indépendant passionné par la création de jeux vidéo immersifs. Notre mission est de créer des mondes captivants et des expériences mémorables en mélangeant narration innovante et gameplay stratégique.
 
-            Notre équipe est composée de créateurs dévoués, regroupant des développeurs, des artistes, et des scénaristes qui partagent une vision commune : repousser les limites de la créativité pour offrir des jeux uniques et engageants.</p>
-        <img src="images/studio_image.png" alt="Notre équipe ou logo stylisé">
+    <section id="about-us">
+        <img src="images/Logo_projet.png" alt="Logo du projet" class="small-logo">
+        <h2>Notre entreprise</h2>
+        <div class="company-info">
+            <p>Glitch Riders est une jeune entreprise de jeux vidéo située à Villejuif, en banlieue parisienne. Fondée par un groupe de développeurs diplômés de l'EPITA, elle se consacre à la création de jeux de Survival Horror innovants et immersifs.</p>
+            <p>Notre vision repose sur une approche audacieuse et créative pour réinventer les règles de la peur et de l'immersion. Grâce à notre petite structure, nous avons la liberté d'explorer des concepts inédits, loin des contraintes des grands studios.</p>
+            <p>Notre dernier projet, <strong>"Pixel Rift"</strong>, incarne cette ambition. Ce jeu promet une expérience intense et imprévisible, avec des environnements immersifs et des mécanismes de gameplay uniques.</p>
+        </div>
+        <div class="company-images">
+            <img src="images/studio_image.png" alt="Photo de groupe" class="company-img">
+            <img src="images/Logo_entreprise.png" alt="Photo du logo de l'entreprise" class="company-img">
+        </div>        
     </section>
+
+    <section id="team">
+        <h2>Ses membres</h2>
+        <!-- Membre 1 -->
+        <div class="team-member">
+            <img src="images/Ismaël.png" alt="Photo d'Ismael Laifa">
+            <div class="member-info">
+                <h3>Ismael Laifa</h3>
+                <p>Ancien capitaine d'équipe de football, Ismael apporte son leadership et sa rigueur en tant que chef de projet. Passionné de musique et de design sonore, il est responsable de la bande sonore du jeu avec Vincent.</p>
+            </div>
+        </div>
+
+        <!-- Membre 2 -->
+        <div class="team-member">
+            <img src="images/Vincent.png" alt="Photo de Vincent Bidard de la Noë">
+            <div class="member-info">
+                <h3>Vincent Bidard de la Noë</h3>
+                <p>Vincent, passionné de programmation depuis le collège, travaille sur le code du jeu et aide Ismael sur la musique. Son expérience dans les hackathons lui a permis de développer des compétences variées en création de jeux.</p>
+            </div>
+        </div>
+
+        <!-- Membre 3 -->
+        <div class="team-member">
+            <img src="images/Mathys.png" alt="Photo de Mathys Bellony">
+            <div class="member-info">
+                <h3>Mathys Bellony</h3>
+                <p>Mathys a commencé à coder des jeux en 2D au lycée. Il est en charge de la programmation du jeu avec Vincent et de la création du site web du projet.</p>
+            </div>
+        </div>
+
+        <!-- Membre 4 -->
+        <div class="team-member">
+            <img src="images/Léa.png" alt="Photo de Léa Ke">
+            <div class="member-info">
+                <h3>Léa Ke</h3>
+                <p>Léa, passionnée de design 3D, est responsable de l'identité visuelle du jeu et de la structure narrative, qu'elle élabore avec Shabithas.</p>
+            </div>
+        </div>
+
+        <!-- Membre 5 -->
+        <div class="team-member">
+            <img src="images/Shabitas.png" alt="Photo de Shabithas Harithas">
+            <div class="member-info">
+                <h3>Shabithas Harithas</h3>
+                <p>Fan de jeux d'horreur depuis l'enfance, Shabithas s'occupe de la conception de l'intrigue du jeu tout en contribuant aux graphismes avec Léa.</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 - Erased Memories | Studio Pixel Rift</p>
+        <p>&copy; 2025 - Erased Memories | Glitch Riders</p>
     </footer>
 </body>
 </html>
+
