@@ -23,13 +23,14 @@
         </nav>
     </header>
     <section id="liens-utiles">
-        <img src="images/Logo_projet.png" alt="Logo du projet" class="small-logo">
+        <img src="images/logo.jpg" alt="Logo du projet" class="small-logo">
         <h1>Avancement dans la réalisation de notre projet</h1>
+    
         <div class="category" id="physique">
             <h2>Physique</h2>
-            <p>Les déplacement du joueur sont entièrement codé :</p>
+            <p>Les déplacements du joueur sont entièrement codés :</p>
             <ul>
-                <li>Le joueur peut se déplacer dans toutes les direction</li>
+                <li>Le joueur peut se déplacer dans toutes les directions</li>
                 <li>La possibilité de courir et de s'accroupir</li>
                 <li>La possibilité de sauter</li>
             </ul>
@@ -38,38 +39,96 @@
                 Votre navigateur ne prend pas en charge la vidéo.
             </video>
         </div>
-
+    
         <div class="category" id="gameplay">
             <h2>Gameplay</h2>
-            <p>Element du Gameplay déjà codé : </p>
+            <p>Éléments du Gameplay déjà codés :</p>
             <ul>
-                <li>La poursuite du joueur par un ennemi en mode Solo</li>
+                <li>intéraction Hero/Ennemi</li>
                 <li>Le joueur peut ramasser des objets afin de se défendre</li>
                 <li>Les collisions avec un ennemi</li>
                 <li>L'implémentation d'un QTE afin de permettre au joueur de se défendre s'il est attrapé par un ennemi</li>
+                <li>Victoire du hero grace aux Objets</li>
             </ul>
             <video width="640" height="360" controls>
-                <source src="videos/Enregistrement de l'écran 2025-01-11 182821.mp4" type="video/mp4">
+                <source src="videos/Vidéo_Gameplay.mp4" type="video/mp4">
                 Votre navigateur ne prend pas en charge la vidéo.
             </video>            
         </div>
-
+    
         <div class="category" id="multijoueur">
             <h2>Multijoueur</h2>
             <p>Le multijoueur est codé en bonne partie, malgré quelques bugs qui subsistent.</p>
+            <video width="640" height="360" controls>
+                <source src="videos/Vidéo_multi.mp4" type="video/mp4">
+                Votre navigateur ne prend pas en charge la vidéo.
+            </video>  
         </div>
-
+    
         <div class="category" id="modelisation">
             <h2>Modélisation</h2>
-            <p>nous avons commencé la modélisation du Jotunn (l'ennemi principal) avec Blender</p>
-            <img src="images/Jotun_Blender.png" alt="Modélisation de Jotun">
+            
+            <div class="category" id="personnage">
+                <h3>Personnage</h3>
+                <div class="image-container">
+                    <img src="images/Jotunn2.png" alt="Modélisation Personnage 1">
+                    <img src="images/Hero.png" alt="Modélisation Personnage 2">
+                    
+                </div>
+            </div>
+    
+            <div class="category" id="objet">
+                <h3>Objets</h3>
+                <div class="object-container">
+                    <div class="object">
+                        <img src="images/knife.png" alt="Objet 1">
+                        <p>Couteau</p>
+                    </div>
+                    <div class="object">
+                        <img src="images/couper.png" alt="Objet 2">
+                        <p>Ciseaux</p>
+                    </div>
+                    <div class="object">
+                        <img src="images/Gun.png" alt="Objet 3">
+                        <p>Pistolet</p>
+                    </div>
+                    <div class="object">
+                        <img src="images/balle.png" alt="Objet 4">
+                        <p>Balle</p>
+                    </div>
+                    <div class="object">
+                        <img src="images/pile.png" alt="Objet 5">
+                        <p>Pile</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
+    
         <div class="category" id="son">
             <h2>Son</h2>
-            <p>A VENIR</p>
+            <p>Son quand Jonas est repéré</p>
+            <audio controls>
+                <source src="Sons/Playerspoted.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
+            <p>Bruit de pas du Jotunn</p>
+            <audio controls>
+                <source src="Sons/pas_Jotunn.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
+            <p>Son de l'environnement</p>
+            <audio controls> 
+                <source src="Sons/ambiance.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
+            <p>Bruit du sprint de Jonas</p>
+            <audio controls>
+                <source src="Sons/sprint.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
         </div>
     </section>
+    
 
 </body>
 </html>

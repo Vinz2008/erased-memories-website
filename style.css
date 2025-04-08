@@ -58,7 +58,7 @@ section {
 
 /* Style pour tous les boutons */
 .btn {
-    background-color: #d32f2f;
+    background-color: #b50d0d;
     color: #f0f0f0;
     padding: 10px 20px;
     text-decoration: none;
@@ -76,6 +76,7 @@ section {
 /* Sous-catégories */
 #presentation .sous-categorie {
     margin: 30px 0;
+    
 }
 
 #presentation .sous-categorie img {
@@ -104,7 +105,7 @@ section {
     position: absolute; /* Permet de le positionner librement */
     top: 10px; /* Distance du haut de la page */
     left: 10px; /* Distance du côté gauche */
-    width: 50px; /* Taille de l'image en largeur */
+    width: 75px; /* Taille de l'image en largeur */
     height: auto; /* Ajuste automatiquement la hauteur pour garder les proportions */
     filter: brightness(0.9); /* Optionnel : un effet léger */
 }
@@ -211,6 +212,7 @@ a:hover {
     height: auto; /* Garder les proportions */
 }
 
+
 .guide-text {
     color: #f0f0f0; /* Couleur blanche pour le texte */
     text-align: left; /* Aligne le texte à gauche de chaque ligne */
@@ -252,6 +254,23 @@ a:hover {
     font-size: 1.5rem; /* Taille de police (ajustez selon vos préférences) */
     margin-bottom: 10px; /* Espacement sous chaque titre */
 }
+
+.guide-lampe-torche {
+    display: flex;
+    flex-direction: column; /* Place l'image au-dessus du texte */
+    justify-content: center; /* Centre l'ensemble horizontalement */
+    align-items: center; /* Centre l'ensemble verticalement */
+    margin-bottom: 20px;
+    max-width: 600px; /* Limite la largeur totale */
+    text-align: center; /* Centre le texte sous l’image */
+}
+
+.guide-lampe-torche img {
+    width: 100%; /* Ajuste la taille de l'image */
+    max-width: 400px; /* Augmente la taille de l’image */
+    height: auto; /* Garde le ratio de l’image */
+}
+
 
 
 
